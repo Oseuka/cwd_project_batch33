@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Kids Hub</title>
+	<link href="externalstylesheet/main.css" rel="stylesheet" type="text/css" />			
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Font awesome link-->
+	<script src="https://kit.fontawesome.com/b7ef2d0cd4.js" crossorigin="anonymous"></script>
+        
+	<!-- Font awesome cdnjs, working without this link-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<!-- Materialize JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<!-- jQuery (necessary for Materialize's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	</head>
+	
+	<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+			  <a href="#" class="brand-logo">Kids Hub</a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			  </ul>
+		  
+			  <!-- Mobile menu button -->
+			  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		  </nav>
+		  
+		  <!-- Mobile menu -->
+		  <ul class="sidenav" id="mobile-demo">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		  </ul>
+          <h3 class="green-text">Class Schedule</h3>
+          <div class="divider"></div>
+      
+          <div class="container"></div>
+          <p>
+              Here's the schedule for next tutorial session.
+          </p>
+              <!-- Class Schedule Table -->
+        <table class="centered responsive-table highlight">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Teacher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Monday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Richmund</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Monday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Ronnie</td>
+                </tr>
+                <tr>
+                    <td>Reading</td>
+                    <td>Tuesday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Twinkle</td>
+                </tr>
+                <tr>
+                    <td>Reading</td>
+                    <td>Tuesday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Maricris</td>
+                </tr>
+                <tr>
+                    <td>Computer</td>
+                    <td>Wednesday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Dianna</td>
+                </tr>
+                <tr>
+                    <td>Computer</td>
+                    <td>Wednesday</td>
+                    <td>4pm - 6pm</td>
+                    <td>Anna</td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+        <div id="copyright">
+            <h6>Copyright&copy;2024 Kids Hub</h6>
+        </div>
+    </footer>
+	</body>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		  var elems = document.querySelectorAll('.sidenav');
+		  var instances = M.Sidenav.init(elems);
+		});
+	  </script>
+</html>

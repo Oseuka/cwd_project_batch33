@@ -1,0 +1,24 @@
+body {
+
+		.nav-wrapper {
+			background-color: #42a5f5 ; /* Change this color */
+		  }
+
+		  
+		#about ul li {
+			list-style-type: disc;
+			margin-left: 3%;
+		}
+		
+		#copyright {
+			clear: both;
+			position: relative;
+			text-align: center;
+		}
+
+		.imgAct{
+			width: 100%;
+		}
+	}
+		  
+	
